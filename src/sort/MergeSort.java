@@ -1,4 +1,4 @@
-// 归并排序
+// 归并排序 自顶向下
 package sort;
 
 public class MergeSort extends BaseSort {
@@ -19,7 +19,7 @@ public class MergeSort extends BaseSort {
         merge(a, i, mid, j);
     }
 
-    private static void merge(Comparable[] a, int lo, int mid, int hi) {
+    static void merge(Comparable[] a, int lo, int mid, int hi) {
         for (int i = lo; i <= hi; i++) {
             aux[i] = a[i];
         }
