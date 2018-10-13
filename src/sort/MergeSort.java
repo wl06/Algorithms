@@ -2,7 +2,7 @@
 package sort;
 
 public class MergeSort extends BaseSort {
-    private static Comparable[] aux;
+    static Comparable[] aux;
 
     public static void sort(Comparable[] a) {
         aux = new Comparable[a.length];
